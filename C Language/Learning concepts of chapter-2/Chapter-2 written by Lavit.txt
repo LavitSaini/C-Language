@@ -1,0 +1,74 @@
+                                    Chapter 2 Instruction and Opreaters
+
+Q-1 what is instructions in c language?
+Ans- c program is set of instructions. For ex- if we make any dish in kitchen then we follow the instructions of dish.
+
+In the c program, there are three types of instructions.
+(i)  Type declaration Instructions
+(ii) Arithmetic Instructions
+(iii) Control Instructions
+
+Q-2 Explain the Type Declaration Instructions?
+Ans- int a = 3;
+     int b = a + 66;
+     printf("the value of b is %d \n", b);--- It is correct Type Declaration Instructions
+
+     int b = a + 44;
+     int a = 4;
+     printf("the value of b is %d \n", b); --- It is wrong Type Declaration Instructions  
+                                                Because its gives error by compiler
+
+
+Q-3  Explain the Arithmetic Instructions?
+Ans- In the c language ,there are five types of arithmetic opreaters/instructions.
+
+(i)  + -- is use for addition, unary plus
+(ii) - -- is use for subtraction, unary minus
+(iii) * -- is use for multipliction
+(iv) / -- is use for division
+(v) % -- is use for remainder
+
+For Example- int a = 3, b = 4, z;
+             int z = a * b; --correct
+             int a * b = z; --wrong
+
+Q-4 Explain the Type Conversion?
+Ans- An Arithmetic Instruction between
+For Example --
+int and int -> int
+int and float -> float
+float and float -> float
+
+5/2 -> 2 , 5.0/2 -> 2.5
+2/5 -> 0 , 2.0/5 -> 0.4
+
+Note ->
+int a = 3.5; In this case 3.5(float) will be demoted to 3(int) because a is not able to store float.
+float a = 5; In this case 5(int) will be demoted to 3.000000(float) because a is not able to store int.
+
+Q-5 Explain the opreator precedence?
+Ans- The following table list of opreator priority in c language.
+ opreator     priority
+   1st         * / %
+   2nd          - +
+   3rd           =
+
+Q-6 Explain the Opreator Associativity?
+Ans- When opreator of equal priority are present is an expression, the fie is taken care of  by associativity.
+For Example--
+a * b /c --> (a * b) / c 
+a / b * c --> (a / b) * c
+* / opreators follow left to right associativity
+
+Q-7 Explain the Control instructions in c language?
+Ans- Control instructions determine the flow of control in a program.
+Four types of control instructions in c language.
+(i) Sequence Control Instructions
+(ii) Decision Control Instructions
+(iii) Loop Control Instructions 
+(iv) Case Control Instructions
+
+
+
+
+             

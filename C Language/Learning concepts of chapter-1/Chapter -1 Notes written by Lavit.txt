@@ -1,0 +1,62 @@
+                                     C Language Notes Of 1st  Chapter   
+
+
+Q-1 what is Programing language?
+Ans- Programing language is medium for us to communicate with computer. for example- we use english or hindi 
+language to communicute to each other. Programing is way for us to deliver our instruction to computer.
+
+Q-2 what is c language?
+Ans- c is a programing language. it is a one of oldest and finest language.
+ it is developed in 1972 by Denis Ritchie  at AT & T'S  lab. 
+
+Q-3 what is the uses of c language?
+Ans- (i) c language is used for making drivers.
+(ii) Major parts of oprating system like windows, linux etc are written in c language.
+
+Q-4 what is variables in c language?
+Ans-Basically, varaiables is name of memory where we store data/values.
+for example-  int ‎w= 2; 
+here w is varaible name in which 2 integer value is stored.
+
+Q-5 what is rules of write the names of variables?
+Ans- (i) varaiables names is core sensitive.
+(ii) no comma, blank allowed.
+(iii) first character is alphabet and _undercore.
+
+Q-6 what is constants in c language?
+Ans- In the c language, there are three types of constants.
+(i) integer constants, for ex- 1, -2, -78 etc.
+(ii) real constants, for ex- 7.98, 7.6 etc.  
+(iii) character constants, for ex- a, v, l etc.
+
+Q-7 what is keywords in c language?
+Ans- The keywords are these types of words, whose meaning is already know to the compiler.
+There are 32 keywords in c language.
+
+Q-8 what is library functions in c language?
+Ans - There are many types of library functions in c language.
+for ex- we use printf function to print any value on screen.
+we use scanf function to recive the output from user.
+ %d is use for integer values.
+ %f is use for real values.
+ %c is use for character values.
+
+Q-9 what is comments in c language?
+Ans- if we want to tell something about our program then we use comments.
+there are two types of comments in c language.
+(i) Single line comment- //
+(ii )Multi line comment- /*   
+                         */
+Q-10 what is datatype in c language?
+Ans- Datatype is form of data which is store in memory.
+for ex- int a; Here int is datatype which store integer value in memory.
+      Primary datatype                               Secondary datatype
+int     float     char     double              arry      pointer      structure
+2byte   4byte     1byte    8byte                ?          ?           ?
+
+Q-11 what is header files in c language?
+Ans- we use header files to start our program.for ex- printf, scanf function is not used without header files.
+      #include<stdio.h>-- is a header files which contains the most of fuctions of c language 
+
+
+
